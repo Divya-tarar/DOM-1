@@ -1,0 +1,10 @@
+.btn{
+border: 2px solid black;
+width: 100px;
+heigth: 100px;
+background: aqua;
+
+}
+.submit{
+    border-radius: 10px;
+}
