@@ -13,17 +13,25 @@
 
 // },1000
 
-const name=document.querySelector("#name")
-
-const btn=document.querySelector(".btn")
-
-const list=document.querySelector(".list")
-btn.addEventListener('click',()=>{
-    const li=document.createElement('li')
-    const dlt=document.createElement('button')
-
-    dlt.addEventListener()
+const p=new Promise ((resizeBy,rej)=>{
+    let done=false
+    setTimeout(()=>{
+        if(done){
+            res("work is done!!")
+        }else{
+            rej("Work is not done")
+        }
+    },5000)
 })
+p.then((msg)=>{
+    console.log(msg)
+
+}).catch((err)=>{
+    console.log(err)
+}).finally(()=>{
+    console.log("Finally block")
+})
+console.log(p)
 
 
 
