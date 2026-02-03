@@ -28,4 +28,23 @@
 
 
 
-console.log(" this is new code")
+//console.log(" this is new code")
+//console.log(" This is newest  code")
+
+//console.log(a)
+//console.log(b)
+
+//var a=678
+function first(){
+  second()
+
+}
+function second(){
+  third()
+}
+function third(){
+  console.trace()
+}
+first()
+
+
